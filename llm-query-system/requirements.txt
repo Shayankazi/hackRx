@@ -1,0 +1,43 @@
+# Python 3.12 compatibility
+setuptools>=68.0.0
+
+# API Framework
+fastapi>=0.104.0,<0.112.0
+uvicorn>=0.24.0,<0.31.0
+python-multipart>=0.0.6,<0.1.0
+
+# Document Processing
+pdfplumber>=0.10.0,<0.12.0
+python-docx>=1.1.0,<1.2.0
+
+# NLP and Text Processing
+spacy>=3.7.0,<3.8.0
+nltk>=3.8.0,<3.9.0
+sentence-transformers>=2.2.0,<3.1.0
+
+# Vector Search and Embeddings
+faiss-cpu>=1.7.0,<1.9.0
+pinecone-client>=2.2.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+
+# LLM Integration
+transformers>=4.35.0,<4.46.0
+torch>=2.1.0,<2.5.0
+accelerate>=0.24.0,<0.35.0
+openai>=1.0.0,<2.0.0
+
+# Database
+psycopg2-binary>=2.9.0,<2.10.0
+sqlalchemy>=2.0.0,<2.1.0
+alembic>=1.12.0,<1.14.0
+
+# Utilities
+pydantic>=2.5.0,<2.10.0
+pydantic-settings>=2.0.0,<2.10.0
+python-dotenv>=1.0.0,<1.1.0
+aiofiles>=23.2.0,<25.0.0
+httpx>=0.25.0,<0.28.0
+
+# Testing
+pytest>=7.0.0,<8.0.0
+pytest-asyncio>=0.21.0,<0.24.0
