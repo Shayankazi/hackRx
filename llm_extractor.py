@@ -4,7 +4,7 @@ import sys
 import os
 
 # Step 1: Replace with your actual Together API Key
-API_KEY = "d52e2b8016723bb26cba22ba154c39a4deef6332e9c56b844c0b7e6511c1a713"
+API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 API_URL = "https://api.together.xyz/inference"
 MODEL_NAME = "lgai/exaone-deep-32b"  # updated to longer context model
